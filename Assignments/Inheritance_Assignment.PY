@@ -15,11 +15,11 @@ class Pets:
 
 # Defining the child class 'Dogs'
 class Dogs(Pets): # (Pets) allows this class to inherit from the parent class
-    Age(months) = 0 # Attribute unique to this class
+    Age_Months = 0 # Attribute unique to this class
     Breed = "Dog Breed" # ^^^^
 
 # Defining the child class "Birds" inheriting (Pets) class
 class Birds(Pets):
     Feed = "Bird seed" # Attribute unique to 'Birds' class
-    Cage_Size(inches) = 0.00 # ^^^^
+    Cage_Size_Inches = 0.00 # ^^^^
     
