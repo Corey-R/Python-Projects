@@ -11,7 +11,7 @@ with conn:
     cur = conn.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS tbl_files( \
         ID INTEGER PRIMARY KEY AUTOINCREMENT, \
-        col_fileName \
+        col_fileName TEXT \
         )") # the '\' is an escape character that allows multiline statements
     conn.commit() # commits changes to the database
 conn.close() # closes the connection and prevents memory leaks
