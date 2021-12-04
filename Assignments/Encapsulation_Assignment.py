@@ -17,11 +17,11 @@ class Protect:
     # defines a set() method
     # passing a private parameter
 
-"""
-    This allows the varaible 'self.__privateVar' to be 
-    set by the user without altering any of the source code
-    created. (Encapsulates)
-"""
+    """
+        This allows the varaible 'self.__privateVar' to be 
+        set by the user without altering any of the source code
+        created. (Encapsulates)
+    """
     def Set(self, private):
         # This sets the the variable to a new value
         # The value of (private) must be given as an argument when calling
