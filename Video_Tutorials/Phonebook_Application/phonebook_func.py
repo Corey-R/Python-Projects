@@ -77,14 +77,14 @@ def onSelect(self,event):
         varBody = cursor.fetchall()
         # This returns a tuple and we can slice it into 5 parts using data[] during the iteration
         for data in varBody:
-            self.tex_fname.delete(0,END)
-            self.tex_fname.insert(0,data[0])
-            self.tex_lname.delete(0,END)
-            self.tex_lname.insert(0,data[1])
-            self.tex_phone.delete(0,END)
-            self.tex_phone.insert(0,data[2])
-            self.tex_email.delete(0,END)
-            self.tex_email.insert(0,data[3])
+            self.txt_fname.delete(0,END)
+            self.txt_fname.insert(0,data[0])
+            self.txt_lname.delete(0,END)
+            self.txt_lname.insert(0,data[1])
+            self.txt_phone.delete(0,END)
+            self.txt_phone.insert(0,data[2])
+            self.txt_email.delete(0,END)
+            self.txt_email.insert(0,data[3])
 
 
 def addToList(self):
