@@ -5,7 +5,7 @@ Using the popular programming language Python in conjunction with other language
 These projects were created using the python shell and a sleuth of modules including tkinter, os, shutil, etc.
 * [Student Tracker](./Assignments/Student-Tracking/student_main.py)
 * [Phonebook App](./Phonebook_Application/phonebook_main.py)
-* [Web Browser GUI](./Challenges/Web_Browser_GUI.py
+* [Web Browser GUI](./Challenges/Web_Browser_GUI.py)
 
 ## Django Projects
 These projects were created using a popular Python framework 'Django' with the 'PyCharm' IDE
