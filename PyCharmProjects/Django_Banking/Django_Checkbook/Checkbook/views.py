@@ -8,7 +8,7 @@ def home(request):
     if request.method == 'POST':
         pk = request.POST['account']
         return balance(request, pk)
-    content = {'form': form)}
+    content = {'form': form}
     return render(request, 'checkbook/index.html', content)
 
 def create_account(request):
@@ -28,7 +28,7 @@ def balance(request, pk):
     for t in transactions:
         if t.type == "Deposit":
             current_total += t.amount
-            table_contents.update({t: current_total})
+            table_contents.update({t : current_total})
         else:
             current_total -= t.amount
             table_contents.update({t : current_total})
